@@ -8,4 +8,5 @@ message PeerAddress {
   string address = 1;
   uint32 port = 2;
   bytes peerID = 3;
+  string nick = 4;
 }
